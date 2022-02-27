@@ -14,8 +14,11 @@ Qiitadon 酒場は旧 Qiitadon メンバーが集うチャットルームです�
 
 - [x] Organization 作成: [https://github.com/Qiitadon](https://github.com/Qiitadon)
 - [x] ドメイン取得: [https://qiitadon.fans/](https://qiitadon.fans/)
-- [ ] IPFS の Bootstrap 用の専用マシン（起動時の初回問い合わせ先のピア）の準備
+- [x] プライベート IPFS の Bootstrap 用ノード（起動時の初回問い合わせ先のピア）の準備
+  - [x] `~/.ipfs/swarm.key` の作成
+- [ ] K3S による Kubernetes クラスターのマスター・ノードの準備
 - [ ] [デモ](https://ipfs.io/ipfs/bafybeia5f2yk6td7ciroeped2uwfivo333b524t3zmoderfhl3xn7wi7aa/)をベースに上記 Bootstrap に置き換えてなんちゃってプライベートにする。
+   - [ ] `js-ipfs` による `swarm.key` の設定方法確認
 
 ## 引越し・バックアップツール
 
