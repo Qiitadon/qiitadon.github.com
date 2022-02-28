@@ -2,6 +2,8 @@
 
 Qiitadon 酒場は旧 Qiitadon メンバーが集うチャットルームです。
 
+> みんなの引越し先はこちら: [github.com/Qiitadon/welcome](https://github.com/Qiitadon/welcome/blob/main/README.md)
+
 ## 目指すもの
 
 - Javascript + HTML5 + プライベート IPFS による、静的ページで構成されているサーバーレスな P2P 型のチャットルーム。
