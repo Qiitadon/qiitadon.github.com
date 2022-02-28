@@ -1,4 +1,4 @@
-# Qiitadon 酒場<sup>β</sup>
+# Qiitadon 酒場本店<sup>α</sup>
 
 Qiitadon 酒場は旧 Qiitadon メンバーが集うチャットルームです。
 
@@ -18,6 +18,7 @@ Qiitadon 酒場は旧 Qiitadon メンバーが集うチャットルームです�
 
 - [x] Organization 作成: [https://github.com/Qiitadon](https://github.com/Qiitadon)
 - [x] ドメイン取得: [https://qiitadon.fans/](https://qiitadon.fans/)
+- [x] 名称の使用許諾
 - [x] プライベート IPFS の Bootstrap 用ノード（起動時の初回問い合わせ先のピア）の準備
   - [x] ネットワーク・キーの作成（`~/.ipfs/swarm.key`）
   - [x] VPS でのプライベート IPFS の動作確認
@@ -25,13 +26,13 @@ Qiitadon 酒場は旧 Qiitadon メンバーが集うチャットルームです�
   - [x] Docker でのプライベート IPFS の動作確認
 - [ ] IPFS のバックアップ用クラスターの準備
   - [x] クラスター・キーの作成（`cluster-secret`）
-  - [x] VPS のバックアップ・クラスターのの動作確認
+  - [x] VPS のバックアップ・クラスターの動作確認
   - [x] RaspberryPi Zero でのバックアップ・クラスターの動作確認
   - [ ] Docker でのプライベート IPFS の動作確認
 - [ ] 静的 IPFS チャットルームの設置
    - [ ] [デモ](https://ipfs.io/ipfs/bafybeia5f2yk6td7ciroeped2uwfivo333b524t3zmoderfhl3xn7wi7aa/)をベースに叩き台設置
    - [ ] `js-ipfs` による `swarm.key` の設定方法確認
-- [ ] K3S による Kubernetes クラスターのマスター・ノードの準備
+- [ ] [K3S](https://k3s.io/) による Kubernetes クラスターのマスター・ノードの準備
    - [ ] K3S ベースの Minecraft サーバ設置
 
 ## 引越し・バックアップツール
